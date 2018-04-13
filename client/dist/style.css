@@ -1,23 +1,32 @@
 /*This is for the Panchito img in the typewritter Component all the way at the top*/
 #panchito{
-  width: 75%;
+  width: 65%;
   height: 50%;
 }
 
 /*This is for the Beatriz img in the typewritter Component all the way at the top*/
 #beatriz{
-  width: 75%;
+  width: 65%;
   height: 50%;
 }
 
 /*This is the TacosBeatriz logo in the typewritter Component all the way at the top*/
 #TacosBeatriz{
   width: 450px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+/*This is the Apeisar logo in the typewritter Component all the way at the top*/
+#Apetisar{
+width: 450px;
+height: : 950px;
+margin-top: 50px;
 }
 
 /*This is for the breadcrumb Component in ./client/src/components/home/Header.jsx  */
 #Nav{
-  font-family: 'Lobster', cursive;
+  font-family: 'Bree Serif', serif;
   font-size: 40px;
   text-align:center;
   width: 0px;
@@ -68,4 +77,27 @@
 
 #menuInteractivo{
   width: 700px;
+}
+
+/* This is for the bots position*/
+.faq {
+
+}
+
+.faq ul {
+
+}
+
+.faq ul li {
+	display:block;
+	float:right;
+	padding:5px;
+}
+
+.faq ul li div {
+	display:none;
+}
+
+.faq ul li div:target {
+	display:block;
 }

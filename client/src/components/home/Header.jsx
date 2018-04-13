@@ -23,16 +23,13 @@ const Header = (props) => (
                     <NavItem eventKey={2} href="/catering">
                       Catering
                     </NavItem>
-                    <NavItem eventKey={2} href="#">
-                      Sobre Nosotros
+                    <NavItem eventKey={2} href="/revisiones">
+                      Opiniones
                     </NavItem>
-                    <NavDropdown eventKey={3} title="Contacto" id="basic-nav-dropdown">
-                      <MenuItem eventKey={3.1}>Action</MenuItem>
-                      <MenuItem eventKey={3.2}>Another action</MenuItem>
-                      <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                      <MenuItem divider />
-                      <MenuItem eventKey={3.4}>Separated link</MenuItem>
-                    </NavDropdown>
+                    <NavItem eventKey={3} href="/aboutus">
+                      Nosotros
+                    </NavItem>
+
                   </Nav>
                 </nav>
               </Navbar>
